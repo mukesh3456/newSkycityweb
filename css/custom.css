@@ -78,7 +78,7 @@ header #mainNav ul{
 
 #mainNav ul li ul{
     position: absolute;
-    width: 208px;
+    width: 240px;
     background-color: whitesmoke;
     left: 0;
     display: none;
