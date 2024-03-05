@@ -42,6 +42,14 @@
     height: 60px;
     z-index: 999;
 }
+.whatsapp-icon1 {
+  position: fixed;
+  left: 30px;
+  bottom: 420px;
+  width: 60px;
+  height: 60px;
+  z-index: 999;
+}
 /* header */
 .reveal_header .logo_normal {
     width: 100px;
