@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Ansonika">
-    <title>PARADISE - Hotel and Bed&Breakfast Site Template</title>
+    <title></title>
 
     <!-- Favicons-->
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
@@ -83,7 +83,9 @@
                                             <ul>
                                                 <li><a href="room_single_deluxe_room.html">single deluxe room</a></li>
                                                 <li><a href="room_deluxe.html">deluxe room</a></li>
-                                                <li><a href="room_executive.html">executive room</a></li>
+                                                <li><a href="deluxe-jacuzzi-room.html">DELUXE JACUZZI ROOM</a></li>
+                                                <li><a href="executive-without-jacuzzi.html">executive room</a></li>
+                                                <li><a href="room_executive.html">EXECUTIVE JACUZZI ROOM</a></li>
                                                 <li><a href="room_premier.html"> premier suites</a></li>
                                                 <li><a href="room_royal.html">royal suites</a></li>
                                             </ul>
@@ -141,7 +143,9 @@
                             <li class="back"><a href="#0">Back</a></li>
                             <li><a href="room_single_deluxe_room.html">single deluxe room</a></li>
                             <li><a href="room_deluxe.html">deluxe room</a></li>
-                            <li><a href="room_executive.html">executive room</a></li>
+                            <li><a href="deluxe-jacuzzi-room.html">DELUXE JACUZZI ROOM</a></li>
+                            <li><a href="executive-without-jacuzzi.html">executive room</a></li>
+                            <li><a href="room_executive.html">EXECUTIVE JACUZZI ROOM</a></li>
                             <li><a href="room_premier.html"> premier suites</a></li>
                             <li><a href="room_royal.html">royal suites</a></li>
                         </ul>
@@ -237,8 +241,7 @@
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 order-lg-1">
-                    <h3 class="mb-3">For any Query or Suggestion, please write us. Your valuable comments are highly
-                        appreciable.</h3>
+                    <h3 class="mb-3">Contact Us</h3>
                     <div id="message-contact"></div>
                     <form method="post" action="phpmailer/contact_template_email.php" id="contactform"
                         autocomplete="off">
@@ -247,19 +250,16 @@
                                 <div class="form-floating mb-4">
                                     <input class="form-control" type="text" id="name_contact" name="name_contact"
                                         placeholder="">
-                                    <label for="name_contact">Name</label>
+                                    <label for="name_contact"> Name</label>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
+                            <!-- <div class="col-sm-6">
                                 <div class="form-floating mb-4">
                                     <input class="form-control" type="text" id="lastname_contact"
                                         name="lastname_contact" placeholder="">
                                     <label for="lastname_contact">Last name</label>
                                 </div>
-                            </div>
-                        </div>
-                        <!-- /row -->
-                        <div class="row">
+                            </div> -->
                             <div class="col-sm-6">
                                 <div class="form-floating mb-4">
                                     <input class="form-control" type="email" id="email_contact" name="email_contact"
@@ -267,12 +267,57 @@
                                     <label for="email_contact">Email</label>
                                 </div>
                             </div>
+                        </div>
+                        <!-- /row -->
+                        <div class="row">
+                           
                             <div class="col-sm-6">
                                 <div class="form-floating mb-4">
                                     <input class="form-control" type="text" id="phone_contact" name="phone_contact"
                                         placeholder="">
-                                    <label for="phone_contact">Telephone</label>
+                                    <label for="phone_contact">Phone Number</label>
                                 </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating mb-4">
+                                    <input class="form-control" type="email" id="email_contact" name="email_contact"
+                                        placeholder="">
+                                    <label for="email_contact">Country</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            
+                            <div class="col-sm-6">
+                                <!-- <div class="form-floating mb-4">
+                                    <input class="form-control" type="text" id="phone_contact" name="phone_contact"
+                                        placeholder="">
+                                    <label for="phone_contact">Phone Number</label>
+                                </div> -->
+                                <select class="form-select form-select-lg mb-3" >
+                                    <option selected>Select Rooms</option>
+                                    <option value="1">SINGLE DELUXE ROOM</option>
+                                    <option value="2">DELUXE ROOM</option>
+                                    <option value="3">DELUXE JACUZZI ROOM</option>
+                                    <option value="4">EXECUTIVE ROOM</option>
+                                    <option value="4">EXECUTIVE JACUZZI ROOM</option>
+                                    <option value="5">PREMIER SUITES</option>
+                                    <option value="6">ROYAL SUITES</option>
+                                  </select>
+                            </div>
+                            <div class="col-sm-6">
+                                <!-- <div class="form-floating mb-4">
+                                    <input class="form-control" type="text" id="phone_contact" name="phone_contact"
+                                        placeholder="">
+                                    <label for="phone_contact">Phone Number</label>
+                                </div> -->
+                                <select class="form-select form-select-lg mb-3" >
+                                    <option selected>Select Days</option>
+                                    <option value="1">15</option>
+                                    <option value="2">20</option>
+                                    <option value="3">30</option>
+                                    
+                                  </select>
                             </div>
                         </div>
                         <!-- /row -->
