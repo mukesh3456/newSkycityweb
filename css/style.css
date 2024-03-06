@@ -993,7 +993,7 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   font-weight: 600;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 header nav ul li:first-child {
   margin-left: 0;

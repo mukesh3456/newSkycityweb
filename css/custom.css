@@ -31,7 +31,7 @@
 }
 #callus{
   color: #E3B327; 
-  padding-right: 278px; 
+  padding-right: 189px; 
   font-size: 16px;
 }
 .whatsapp-icon {
@@ -45,7 +45,7 @@
 .whatsapp-icon1 {
   position: fixed;
   left: 30px;
-  bottom: 450px;
+  bottom: 440px;
   width: 60px;
   height: 60px;
   z-index: 999;
